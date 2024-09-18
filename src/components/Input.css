@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Input {
+  width: 60px;
+  height: 32px;
+  top: 708px;
+  left: 1140px;
+  border-radius: 6px;
+  border: 1px;
+}
