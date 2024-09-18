@@ -1,5 +1,17 @@
+import { ModalButton } from "./components/modal/ModalButton"
+
+
 function App() {
-  return <div>Order-Food</div>;
+
+  return (
+    <div>
+  
+  
+      <ModalButton/>
+
+     
+    </div>
+  );
 }
 
 export default App;
