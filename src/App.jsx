@@ -1,5 +1,11 @@
+import { MainOrder } from "./utils/constants/MainOrder";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <MainOrder />
+    </div>
+  );
 }
 
 export default App;
