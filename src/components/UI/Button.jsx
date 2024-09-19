@@ -1,8 +1,6 @@
 import "./Button.css";
-export const Button = ({ children, type, onClick, ...props }) => {
+export const Button = () => {
   return (
-    <button className="btnicon" type={type} onClick={onClick} {...props}>
-      {children}
-    </button>
+    <img src="" alt="" />
   );
 };

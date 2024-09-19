@@ -1,27 +1,2 @@
-.btnicon{
-  margin: 50px;
-    font-size: 30px;
-    align-items: center;
-    color: #8a2b06;
-    border-radius: 15px;
-    text-align: center;
-    border: 2px solid #8a2b06;
-    width: 70px;
-    height: 44px;
-    cursor: pointer;
-  }
-  .btnicon:hover {
-    background-color: #8a2b06;
-    color: #FFFFFF;
-  }
-  .btnicon:active {
-    background-color: #993108;
-    color: #FFFFFF;
-  }
-  .btnicon:disabled {
-    background-color:#CAC6C4;
-    color: #FFFFFF;
-    border: none;
-  }
 
 

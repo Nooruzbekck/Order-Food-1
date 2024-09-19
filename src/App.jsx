@@ -1,10 +1,9 @@
-import {Button} from "./components/UI/Button"
+import {Main} from "./components/Main-banner/Main"
 
-function App() {
+ export  function App() {
   return (
     <div>
-      <Button>+</Button>
-      <Button>-</Button>
+      <Main />
     </div>
   );
 }
