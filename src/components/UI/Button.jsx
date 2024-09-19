@@ -1,6 +1,22 @@
 import "./Button.css";
-export const Button = () => {
+
+export const Button = ({
+  children,
+  type = "button",
+  onClick,
+  disabled,
+  variant = "contained",
+  ...props
+}) => {
   return (
-    <img src="" alt="" />
+    <button
+      type={type}
+      {...props}
+      onClick={onClick}
+      disabled={disabled}
+      className={variant === "outlined" ? "outlined" : "contained"}
+    >
+      {children}
+    </button>
   );
 };
