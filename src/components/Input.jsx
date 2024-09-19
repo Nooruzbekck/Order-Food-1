@@ -1,4 +1,3 @@
-
 import "./Input.css";
 
 export const Input = ({ value, onChange, type, id, ...props }) => {

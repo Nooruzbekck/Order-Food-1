@@ -1,9 +1,8 @@
-Input {
-  
+input {
   width: 60px;
   height: 32px;
 
   background: #ffffff;
   border-radius: 6px;
-border: solid 1px gray;
+  border: solid 1px gray;
 }
