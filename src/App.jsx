@@ -1,5 +1,9 @@
+import { ProductsMain } from "./components/ProductsMain";
+
 function App() {
-  return <div></div>;
+  return <div>
+    <ProductsMain/>
+  </div>;
 }
 
 export default App;
