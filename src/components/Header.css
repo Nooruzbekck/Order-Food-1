@@ -1,10 +1,10 @@
-.header-two{
-    height: 101px;
-    background-color: #8A2B06;
-    display: flex;
-    justify-content: space-between;
-padding: 22px 120px;
+.header-two {
+  height: 101px;
+  background-color: #8a2b06;
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 120px;
 }
-h1{
-color: white;
+h1 {
+  color: white;
 }
