@@ -19,27 +19,26 @@ button:active {
   background-color: #993108;
 }
 
-.contained{
-    background-color: #8a2b06;
-    color: white;
+.contained {
+  background-color: #8a2b06;
+  color: white;
 }
 .contained:hover {
-    background-color:#7E2A0A;
-    color: white;
-  }
-  
+  background-color: #7e2a0a;
+  color: white;
+}
+
 .contained:active {
-    background-color:  #993108;
-    ;
-  }
+  background-color: #993108;
+}
 .contained:disabled {
-    background-color:#CAC6C4;
-    color: white;
-    border: none;
-  }
-.outlined:disabled{
-    border: 1px solid #CAC6C4;
-    background-color: transparent;
-    color: #CAC6C4;
-    cursor: pointer;
+  background-color: #cac6c4;
+  color: white;
+  border: none;
+}
+.outlined:disabled {
+  border: 1px solid #cac6c4;
+  background-color: transparent;
+  color: #cac6c4;
+  cursor: pointer;
 }
