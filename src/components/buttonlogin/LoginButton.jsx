@@ -1,22 +1,25 @@
-import "./Button.css";
+import React from "react";
+import "./LoginButton.css";
 
-export const Button = ({
+const LoginButton = ({
   children,
-  type = "button",
+  type,
+  value,
   onClick,
   disabled,
-  variant = "contained",
   ...props
 }) => {
   return (
     <button
+      className="btnicon"
       type={type}
-      {...props}
+      value={value}
       onClick={onClick}
+      {...props}
       disabled={disabled}
-      className={variant === "outlined" ? "outlined" : "contained"}
     >
       {children}
     </button>
   );
 };
+export default LoginButton;

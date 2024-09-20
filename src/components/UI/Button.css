@@ -43,6 +43,21 @@ button:active {
   cursor: pointer;
 }
 
+.contained:active {
+  background-color: #993108;
+}
+.contained:disabled {
+  background-color: #cac6c4;
+  color: white;
+  border: none;
+}
+.outlined:disabled {
+  border: 1px solid #cac6c4;
+  background-color: transparent;
+  color: #cac6c4;
+  cursor: pointer;
+}
+
 
 .btnicon {
   margin: 50px;

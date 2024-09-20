@@ -1,0 +1,36 @@
+.Main-container {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  width: 854px;
+  height: 270px;
+  border-radius: 16px;
+  margin-bottom: 100px;
+  padding: 40px;
+  color: #ffffff;
+  background-color: #383838;
+}
+.Food {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.Experionced {
+  padding-top: 30px;
+}
+p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 854px;
+  text-align: center;
+  width: 746px;
+  height: 48px;
+  top: 450px;
+  left: 347px;
+  gap: 0px;
+  opacity: 0px;
+}
