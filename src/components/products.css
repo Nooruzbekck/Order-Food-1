@@ -4,13 +4,13 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  
 }
 
 .container-lest {
-  width: fit-content;
+  width: 1000px;
   min-height: 564px;
-  
+
   border-radius: 16px;
   background-color: #ffffff;
   list-style: none;
@@ -21,7 +21,7 @@
 }
 
 .container-map {
-  display: flex;
+  display: flex; 
   flex-direction: column;
   gap: 44px;
 }
@@ -42,14 +42,25 @@ span {
   width: 909px;
   display: flex;
   justify-content: space-between;
+  
 }
 .leaf-list:last-child {
   border-bottom: none;
 }
-.pulse-add{
+.pulse-add {
   display: flex;
-  gap: 12px;
   flex-direction: column;
-  
+  align-items: end;
+  padding: 24px 0;
+  gap: 12px;
 }
 
+.products{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.add-input{
+  display: flex;
+  gap: 20px;
+}

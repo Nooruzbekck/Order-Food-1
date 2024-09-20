@@ -9,20 +9,22 @@ export const ProductsList = ({ onAddOrder }) => {
   const addProductHandler = (product) => {
     onAddOrder(product);
     setAmounts(0);
+    setAmounts("");
   };
 
   return (
-    <div className="container-map">
+    <ul className="container-map">
       {products.map((product) => (
-        <div key={product.id} className="leaf-list">
-          <div>
+        <li key={product.id} className="leaf-list">
+          <div className="products">
             <h2>{product.title}</h2>
-            <p>{product.description}</p>
-            <span>${product.prais}</span>
+            <i>{product.description}</i>
             <div>{product.li}</div>
+            <span>${product.prais}</span>
           </div>
           <div className="pulse-add">
-            <label>
+       
+         <label className="add-input">
               Amount
               <Input
                 type="number"
@@ -38,8 +40,8 @@ export const ProductsList = ({ onAddOrder }) => {
               Add
             </ButtonAdd>
           </div>
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 };

@@ -8,6 +8,7 @@ export const Main = () => {
       <img src={Banner} alt="banner" className="banner" />
       <div className="wrapper-delicious">
         <Delicious />
+        
       </div>
     </div>
   );
