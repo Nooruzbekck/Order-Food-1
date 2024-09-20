@@ -1,11 +1,5 @@
-import Login from "./components/buttonlogin/Login";
-
 function App() {
-  return (
-    <div>
-      <Login />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
