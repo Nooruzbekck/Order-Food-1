@@ -10,9 +10,15 @@
 }
 .Price-Order{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600px;
     color:  #AD5502;
     margin-bottom: 86px;
     margin-left: 32px;
+    border: none;
     border-bottom: 1px solid  #D6D6D6;
+
+}
+
+li{
+    border-bottom: none;
 }

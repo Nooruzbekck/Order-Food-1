@@ -6,7 +6,8 @@ import { MainOrder } from "./utils/constants/MainOrder";
 function App() {
   return (
     <div>
-      <MainOrder />
+      <MainOrder/>
+
     </div>
   );
 }
