@@ -42,3 +42,48 @@ button:active {
   color: #cac6c4;
   cursor: pointer;
 }
+
+.contained:active {
+  background-color: #993108;
+}
+.contained:disabled {
+  background-color: #cac6c4;
+  color: white;
+  border: none;
+}
+.outlined:disabled {
+  border: 1px solid #cac6c4;
+  background-color: transparent;
+  color: #cac6c4;
+  cursor: pointer;
+}
+
+
+.btnicon {
+  font-size: 30px;
+  align-items: center;
+  color: #8a2b06;
+  border-radius: 15px;
+  text-align: center;
+  border: 2px solid #8a2b06;
+  width: 70px;
+  height: 44px;
+
+  cursor: pointer;
+}
+.btnicon:hover {
+  background-color: #8a2b06;
+  color: #ffffff;
+}
+.btnicon:active {
+  background-color: #993108;
+  color: #ffffff;
+}
+.btnicon:disabled {
+  background-color: #cac6c4;
+  color: #ffffff;
+  border: none;
+}
+
+   
+

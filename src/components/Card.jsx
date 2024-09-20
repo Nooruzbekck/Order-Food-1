@@ -1,4 +1,5 @@
 import "./Card.css";
+import { Button } from "./UI/Button";
 export const Card = () => {
   return (
     <div className="div-container">
