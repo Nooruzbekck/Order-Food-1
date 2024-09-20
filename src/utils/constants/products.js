@@ -4,7 +4,6 @@ export const products = [
     title: "Sushi",
     description: "veggies",
     prais: 22.99,
-    
   },
   {
     id: "e2",
@@ -23,5 +22,71 @@ export const products = [
     title: "Green Bowl",
     description: "Healthy...and green...",
     prais: 19.99,
+  },
+  {
+    id: "e4",
+    title: "Green Bowl",
+    description: "Healthy...and green...",
+    prais: 19.99,
+  },
+  {
+    id: "e4",
+    title: "Green Bowl",
+    description: "Healthy...and green...",
+    prais: 19.99,
+  },
+  {
+    id: "e4",
+    title: "Green Bowl",
+    description: "Healthy...and green...",
+    prais: 19.99,
+  },
+  {
+    id: "e4",
+    title: "Green Bowl",
+    description: "Healthy...and green...",
+    prais: 19.99,
+  },
+  {
+    id: "e4",
+    title: "Green Bowl",
+    description: "Healthy...and green...",
+    prais: 19.99,
+  },
+  {
+    id: "e1",
+    title: "Sushi",
+    description: "veggies",
+    prais: 22.99,
+  },
+  {
+    id: "e1",
+    title: "Sushi",
+    description: "veggies",
+    prais: 22.99,
+  },
+  {
+    id: "e1",
+    title: "Sushi",
+    description: "veggies",
+    prais: 22.99,
+  },
+  {
+    id: "e1",
+    title: "Sushi",
+    description: "veggies",
+    prais: 22.99,
+  },
+  {
+    id: "e1",
+    title: "Sushi",
+    description: "veggies",
+    prais: 22.99,
+  },
+  {
+    id: "e1",
+    title: "Sushi",
+    description: "veggies",
+    prais: 22.99,
   },
 ];

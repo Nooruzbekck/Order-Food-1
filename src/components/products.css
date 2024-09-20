@@ -1,15 +1,16 @@
 .container-main {
   background-color: #3f3f3f;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container-lest {
-  width: 1039px;
-  height: 564px;
+  width: fit-content;
+  min-height: 564px;
+  
   border-radius: 16px;
   background-color: #ffffff;
   list-style: none;
@@ -24,10 +25,7 @@
   flex-direction: column;
   gap: 44px;
 }
-.container-map > div {
-  display: flex;
-  justify-content: space-between;
-}
+
 h2 {
   font-size: 18px;
 }
@@ -39,14 +37,19 @@ span {
   font-size: 20px;
   color: #ad5502;
 }
-input {
-  width: 60px;
-  height: 32px;
-}
 .leaf-list {
   border-bottom: 1px solid rgba(0, 0, 0, 0.634);
   width: 909px;
+  display: flex;
+  justify-content: space-between;
 }
 .leaf-list:last-child {
   border-bottom: none;
 }
+.pulse-add{
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  
+}
+
