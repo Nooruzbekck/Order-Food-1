@@ -4,7 +4,7 @@
   border-radius: 20px;
   background-color: #8a2b06;
   font-size: 14px;
-  font-weight: 500px;
+  font-weight: 700;
   color: #fff;
   border: none;
   display: flex;
@@ -13,8 +13,8 @@
   gap: 10px;
 }
 .vector {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
 }
 
 .button_add:hover {
@@ -25,4 +25,5 @@
 }
 .button_add:disabled {
   background-color: #cac6c4;
+
 }

@@ -1,5 +1,5 @@
 import "./ButtonAdd.css";
-import Vector from "../../../assets/icon/Plus-icon.svg";
+import Vector from "../../../assets/icons/plus-icon.svg";
 
 export const ButtonAdd = ({ children, type, onClick, disabled, ...props }) => {
   return (
